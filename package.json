@@ -1,11 +1,18 @@
 {
-  "name": "wallet-analyzer",
+  "name": "polymarket-bot",
   "version": "1.0.0",
-  "main": "wallet-analyzer.js",
+  "main": "copy-bot.js",
   "scripts": {
-    "start": "node wallet-analyzer.js"
+    "start": "node copy-bot.js"
   },
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "@polymarket/clob-client-v2": "^2.0.0",
+    "https-proxy-agent": "^7.0.0",
+    "pg": "^8.11.0",
+    "viem": "^2.0.0",
+    "ws": "^8.0.0"
   }
 }
