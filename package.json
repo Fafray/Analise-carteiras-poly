@@ -1,6 +1,6 @@
 {
   "name": "polymarket-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "copy-bot.js",
   "scripts": {
     "start": "node copy-bot.js"
