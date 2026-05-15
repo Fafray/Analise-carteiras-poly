@@ -1,0 +1,13 @@
+{
+  "name": "chasing-steam-bot",
+  "version": "1.0.0",
+  "description": "Chasing Steam bot — monitora Pinnacle via WebSocket e detecta gaps no Polymarket",
+  "main": "steam-bot.js",
+  "scripts": {
+    "start": "node steam-bot.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0",
+    "https-proxy-agent": "^7.0.5"
+  }
+}
