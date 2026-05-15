@@ -9,10 +9,10 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@polymarket/clob-client-v2": "^2.0.0",
+    "@polymarket/clob-client-v2": "*",
     "https-proxy-agent": "^7.0.0",
     "pg": "^8.11.0",
-    "viem": "^2.0.0",
+    "viem": "*",
     "ws": "^8.0.0"
   }
 }
